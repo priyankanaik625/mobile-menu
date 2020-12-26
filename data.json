@@ -1,0 +1,184 @@
+{
+    "level1":[
+       {
+          "name":"Fahrräder",
+          "url":"https://www.fahrrad.de/fahrraeder/",
+          "level2":[
+             {
+                "name":"Mountainbikes",
+                "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/",
+                "level3":[
+                   {
+                      "name":"MTB Hardtails",
+                      "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/mtb-hardtails/"
+                   },
+                   {
+                      "name":"MTB Fullys",
+                      "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/mtb-fullys/"
+                   },
+                   {
+                      "name":"MTB 26 Zoll",
+                      "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/mtb-26-zoll/"
+                   }
+                ]
+             },
+             {
+                "name":"Rennräder",
+                "url":"https://www.fahrrad.de/fahrraeder/rennraeder/",
+                "level3":[
+                   {
+                      "name":"Straßenrennräder",
+                      "url":"https://www.fahrrad.de/fahrraeder/rennraeder/strassenrennraeder/"
+                   },
+                   {
+                      "name":"Triathlonräder",
+                      "url":"https://www.fahrrad.de/fahrraeder/rennraeder/triathlonraeder/"
+                   },
+                   {
+                      "name":"Cyclocross Bikes",
+                      "url":"https://www.fahrrad.de/fahrraeder/rennraeder/cyclocross-bikes/"
+                   }
+                ]
+             },
+             {
+                "name":"E-bikes",
+                "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
+                "level3":[
+                   {
+                      "name":"E-Mountainbikes",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-mountainbikes/"
+                   },
+                   {
+                      "name":"E-Bikes Rennrad & Gravel",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-bikes-rennrad/"
+                   },
+                   {
+                      "name":"E-Bikes Cross",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-bikes-cross/"
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"E-bikes",
+          "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
+          "level2":[
+             {
+                "name":"E-Bikes",
+                "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
+                "level3":[
+                   {
+                      "name":"E-Bikes MTBs",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-mountainbikes/"
+                   },
+                   {
+                      "name":"E-Bikes Rennrad",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-bikes-rennrad/"
+                   },
+                   {
+                      "name":"E-Bikes Trekking",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-bikes-trekking/"
+                   }
+                ]
+             },
+             {
+                "name":"E-Scooter",
+                "url":"https://www.fahrrad.de/e-scooter/",
+                "level3":[
+                   {
+                      "name":"E-Scooter",
+                      "url":"https://www.fahrrad.de/e-scooter/"
+                   },
+                   {
+                      "name":"E-Bike Kaufberater",
+                      "url":"https://www.fahrrad.de/ueber-e-bikes-berater.html"
+                   },
+                   {
+                      "name":"E-Bikes City",
+                      "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-bikes-city/"
+                   }
+                ]
+             },
+             {
+                "name":"E-Bike Teile",
+                "url":"https://www.fahrrad.de/teile/e-bike-teile/",
+                "level3":[
+                   {
+                      "name":"Akkus",
+                      "url":"https://www.fahrrad.de/teile/e-bike-teile/e-bike-akkus-ladegeraete/"
+                   },
+                   {
+                      "name":"Bremsen",
+                      "url":"https://www.fahrrad.de/teile/e-bike-teile/e-bike-bremsen/"
+                   },
+                   {
+                      "name":"Reifen",
+                      "url":"https://www.fahrrad.de/teile/e-bike-teile/e-bike-reifen/"
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Bekleidung",
+          "url":"https://www.fahrrad.de/bekleidung/",
+          "level2":[
+             {
+                "name":"Fahrradhosen",
+                "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/",
+                "level3":[
+                   {
+                      "name":"MTB Hosen",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/mtb-hosen/"
+                   },
+                   {
+                      "name":"Rennradhosen",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/rennradhosen/"
+                   },
+                   {
+                      "name":"Winterhosen",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/winterhosen/"
+                   }
+                ]
+             },
+             {
+                "name":"Fahrradtrikots",
+                "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/",
+                "level3":[
+                   {
+                      "name":"MTB Trikots",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/mtb-trikots/"
+                   },
+                   {
+                      "name":"Rennrad Trikots",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/rennrad-trikots/"
+                   },
+                   {
+                      "name":"Trikots langarm",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/trikots-langarm/"
+                   }
+                ]
+             },
+             {
+                "name":"Fahrradjacken",
+                "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/",
+                "level3":[
+                   {
+                      "name":"MTB Jacken",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/mtb-jacken/"
+                   },
+                   {
+                      "name":"Rennradjacken",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/rennradjacken/"
+                   },
+                   {
+                      "name":"Regenjacken",
+                      "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/regenjacken/"
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+ }

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mobile Menu</title>
+  <meta name="description" content="Mobile Menu">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu" id="menu">
+            <div class="menu__logo-wrapper">
+                <a href="https://www.fahrrad.de/" class="menu__logo-link">
+                    <img class="menu__logo" src="./icons/logo.svg" alt="Mobile Menu">
+                </a>
+                <button class="menu__close"><i>×</i></button>
+            </div>
+            <nav class="menu__nav" id="menu__nav" aria-label="Mobile navigation">
+                <!-- The JSON list goes here... -->
+
+                <!-- Bellow is the static nested list, incaseyou have problem loading Json Data.. -->
+                <!-- <ul class="menu__list-level1">
+                    <li class="menu__item-level1">
+                        <a href="https://www.fahrrad.de/fahrraeder/" class="menu__link-level1">Fahhrad</a>
+                        <button class="menu__toggle">⌄</button>
+                        <ul class="menu__list-level2 menu__list-level1">
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">MountainBikes L2</a>
+                                <button class="menu__toggle">⌄</button>
+                                <ul class="menu__list-level3">
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">MountainBikes level3</a>
+                                    </li>
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">Ranradder level3</a>
+                                    </li>
+                                    <li class="menu__item-level2">
+                                        <a href="#" class="menu__link-level3">E Bikes Nested level3</a>
+                                    </li>
+                                </ul>  
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">Ranradder L2</a>
+                                <button class="menu__toggle">⌄</button>
+                                <ul class="menu__list-level3">
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">MountainBikes level3</a>
+                                    </li>
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">Ranradder level3</a>
+                                    </li>
+                                    <li class="menu__item-level2">
+                                        <a href="#" class="menu__link-level3">E Bikes Nested level3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">E Bikes Nested L2</a>
+                            </li>
+                        </ul>  
+                    </li>
+                    <li class="menu__item-level1">
+                        <a href="#" class="menu__link-level1">E-bikes</a>
+                        <button class="menu__toggle">⌄</button>
+                        <ul class="menu__list-level2">
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">MountainBikes L2</a>
+                                <button class="menu__toggle">⌄</button>
+                                <ul class="menu__list-level3">
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">MountainBikes level3</a>
+                                    </li>
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">Ranradder level3</a>
+                                    </li>
+                                    <li class="menu__item-level2">
+                                        <a href="#" class="menu__link-level3">E Bikes Nested level3</a>
+                                    </li>
+                                </ul>  
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">Ranradder L2</a>
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">E Bikes Nested L2</a>
+                            </li>
+                        </ul>     
+                    </li>
+                    <li class="menu__item-level1">
+                        <a href="#" class="menu__link-level1">Bekleidung</a> 
+                        <button class="menu__toggle">⌄</button>
+                        <ul class="menu__list-level2">
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">MountainBikes Level2</a>
+                                <button class="menu__toggle">⌄</button>
+                                <ul class="menu__list-level3">
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">MountainBikes level3</a>
+                                    </li>
+                                    <li class="menu__item-level3">
+                                        <a href="#" class="menu__link-level3">Ranradder level3</a>
+                                    </li>
+                                    <li class="menu__item-level2">
+                                        <a href="#" class="menu__link-level3">E Bikes Nested level3</a>
+                                    </li>
+                                </ul>  
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">Ranradder Level2</a>
+                            </li>
+                            <li class="menu__item-level2">
+                                <a href="#" class="menu__link-level2">E Bikes Nested Level2</a>
+                            </li>
+                        </ul>     
+                    </li>
+                </ul> -->
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <p class="info__text">Please click on the bellow button to open the menu :)</h1>
+            <div>
+                <button class="info__drawer">&#9776;</button> 
+            </div> 
+        </div>
+    </main>
+  <script src="./create-menu.js"></script>
+  <script src="./menu.js"></script>
+</body>
+</html>
