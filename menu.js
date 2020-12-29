@@ -1,6 +1,5 @@
 
 const menu = document.querySelector(".menu");
-const toggleButtons = menu.getElementsByClassName("menu__toggle");
 const drawer = document.querySelector('.info__drawer');
 const close = document.querySelector('.menu__close');
 
@@ -12,8 +11,10 @@ const getSiblings = elem => {
 
 //menu toggles/accordion
 setTimeout( () => { 
-    Array.from(toggleButtons).forEach(toggle => {
+    const toggleButtons = menu.querySelectorAll(".menu__toggle");
+    toggleButtons.forEach(toggle => {
         toggle.addEventListener('click', () => {
+            
             const siblings = getSiblings(toggle.parentNode);
             siblings.forEach(sibling => {
                 sibling.classList.remove('active');

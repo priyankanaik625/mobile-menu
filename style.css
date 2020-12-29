@@ -83,9 +83,9 @@ body {
     background-color: var(--grey);
 }
 
-.menu__list-level3 {
+/* .menu__list-level3 {
     width: 80%;
-}
+} */
 
 [class^="menu__item-"] {
     display: flex;

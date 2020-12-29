@@ -4,7 +4,8 @@ fetch('./data.json')
     .catch(err => console.log('Error:' + err));
 
 const appendData = (data) => {
-    const menu = document.getElementById("menu__nav");
+    const menuNavigation = document.getElementById("menu__nav");
+
     var temp = '';
     temp += '<ul class="menu__list-level1" role="menubar">'
 
@@ -36,5 +37,5 @@ const appendData = (data) => {
     }
 
     temp += '</ul>'
-    menu.innerHTML = temp;
+    menuNavigation.innerHTML = temp;
 }
