@@ -1,7 +1,7 @@
 
 fetch('./data.json')
     .then(results => results.json())
-    .then(data => appendData(data, accordion)) // function accordion is from the file menu.js
+    .then(data => appendData(data, accordion)) // function accordion is from the file menu.js.
     .catch(err => console.log('Error:' + err))
 
 const appendData = (receivedData, callback) => {
