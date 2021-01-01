@@ -1,13 +1,13 @@
 {
-    "level1":[
+    "navigation":[
        {
           "name":"Fahrräder",
           "url":"https://www.fahrrad.de/fahrraeder/",
-          "level2":[
+          "subnav":[
              {
                 "name":"Mountainbikes",
                 "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"MTB Hardtails",
                       "url":"https://www.fahrrad.de/fahrraeder/mountainbikes/mtb-hardtails/"
@@ -25,7 +25,7 @@
              {
                 "name":"Rennräder",
                 "url":"https://www.fahrrad.de/fahrraeder/rennraeder/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"Straßenrennräder",
                       "url":"https://www.fahrrad.de/fahrraeder/rennraeder/strassenrennraeder/"
@@ -43,7 +43,7 @@
              {
                 "name":"E-bikes",
                 "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"E-Mountainbikes",
                       "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-mountainbikes/"
@@ -63,11 +63,11 @@
        {
           "name":"E-bikes",
           "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
-          "level2":[
+          "subnav":[
              {
                 "name":"E-Bikes",
                 "url":"https://www.fahrrad.de/fahrraeder/e-bikes/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"E-Bikes MTBs",
                       "url":"https://www.fahrrad.de/fahrraeder/e-bikes/e-mountainbikes/"
@@ -85,7 +85,7 @@
              {
                 "name":"E-Scooter",
                 "url":"https://www.fahrrad.de/e-scooter/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"E-Scooter",
                       "url":"https://www.fahrrad.de/e-scooter/"
@@ -103,7 +103,7 @@
              {
                 "name":"E-Bike Teile",
                 "url":"https://www.fahrrad.de/teile/e-bike-teile/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"Akkus",
                       "url":"https://www.fahrrad.de/teile/e-bike-teile/e-bike-akkus-ladegeraete/"
@@ -123,11 +123,11 @@
        {
           "name":"Bekleidung",
           "url":"https://www.fahrrad.de/bekleidung/",
-          "level2":[
+          "subnav":[
              {
                 "name":"Fahrradhosen",
                 "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"MTB Hosen",
                       "url":"https://www.fahrrad.de/bekleidung/fahrradhosen/mtb-hosen/"
@@ -145,7 +145,7 @@
              {
                 "name":"Fahrradtrikots",
                 "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"MTB Trikots",
                       "url":"https://www.fahrrad.de/bekleidung/fahrradtrikots/mtb-trikots/"
@@ -163,7 +163,7 @@
              {
                 "name":"Fahrradjacken",
                 "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/",
-                "level3":[
+                "subnav":[
                    {
                       "name":"MTB Jacken",
                       "url":"https://www.fahrrad.de/bekleidung/fahrradjacken/mtb-jacken/"

@@ -6,7 +6,7 @@ const getSiblings = elem => {
     return Array.prototype.filter.call(elem.parentNode.children, sibling => {
         return sibling !== elem;
     });
-};
+};  
 
 //menu toggles/accordion
 accordion = () => {
