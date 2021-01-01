@@ -39,5 +39,5 @@ const appendData = (receivedData, callback) => {
 
     temp += '</ul>'
     menuNavigation.innerHTML = temp;
-    if(accordion) callback();
+    if(callback) callback();
 }
