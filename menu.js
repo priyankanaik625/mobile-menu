@@ -1,5 +1,5 @@
 const menu = document.querySelector(".menu");
-const drawer = document.querySelector('.info__drawer');
+const drawer = document.querySelector('.drawer__button');
 const close = document.querySelector('.menu__close');
 
 const getSiblings = elem => {

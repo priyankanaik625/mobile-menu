@@ -134,9 +134,9 @@ body {
     transition: transform 0.4s ease;
 }
 
-.menu__toggle:focus {
+/* .menu__toggle:focus {
     outline: none;
-}
+} */
 
 .menu__item-level2 > .menu__toggle {
     font-size: 20px;
@@ -147,16 +147,18 @@ body {
     transform: rotate(-180deg) translateY(-15px);
 }
 
-.info {
+.drawer {
     padding: 100px;
 }
 
-.info__text {
+.drawer__text {
     font-size: 20px;
 }
 
-.info__drawer {
+.drawer__button {
+    display: block;
     cursor: pointer;
     font-size: 50px;
     padding: 0 15px;
+    margin-top: 30px;
 }
