@@ -14,11 +14,26 @@ accordion = () => {
     toggleButtons.forEach(toggle => {
         toggle.addEventListener('click', () => {
             
+            //Accessibility variables
+            let ariaHidden = toggle.previousSibling.getAttribute('aria-hidden');
+            let ariaExpanded = toggle.previousSibling.getAttribute('aria-expanded');
+            ariaHidden = ariaHidden==="true" ? false : true;
+            ariaExpanded = ariaExpanded==="false" ? true : false;
+            
             const siblings = getSiblings(toggle.parentNode);
             siblings.forEach(sibling => {
                 sibling.classList.remove('active');
+                
+                // Accessibility
+                sibling.querySelector('a').setAttribute('aria-hidden',true);
+                sibling.querySelector('a').setAttribute('aria-expanded',false);
             })
             toggle.parentNode.classList.toggle('active');
+        
+            // Accessibility
+            toggle.previousSibling.setAttribute('aria-hidden',ariaHidden);
+            toggle.previousSibling.setAttribute('aria-expanded',ariaExpanded);
+
             
             // get total height of childrens
             var totalHeight = 0;       
