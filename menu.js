@@ -52,14 +52,14 @@ accordion = () => {
 
         // Acessibility
         toggle.addEventListener('click', () => {
-            let ariaExpanded = toggle.previousSibling.getAttribute('aria-expanded');
+            let ariaExpanded = toggle.getAttribute('aria-expanded');
             ariaExpanded = ariaExpanded=="false" ? true : false;
-            toggle.previousSibling.setAttribute('aria-expanded',ariaExpanded);
+            toggle.setAttribute('aria-expanded',ariaExpanded);
 
             //Sibilings    
             const siblings = getSiblings(toggle.parentNode);
             siblings.forEach(sibling => {                
-                sibling.querySelector('a').setAttribute('aria-expanded',false);
+                sibling.querySelector('button').setAttribute('aria-expanded',false);
             })
 
         });
