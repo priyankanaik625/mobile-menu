@@ -11,32 +11,27 @@ const getSiblings = elem => {
 //menu toggles/accordion
 accordion = () => {
     const toggleButtons = menu.querySelectorAll(".menu__toggle");
+    const menuLinks = menu.querySelectorAll(".menu__nav a");
+
+    toggleButtons[0].setAttribute('tabindex', "0");
+    menuLinks[0].setAttribute('tabindex', "0");
+  
     toggleButtons.forEach(toggle => {
+
+        //Core Functionality
         toggle.addEventListener('click', () => {
-            
-            //Accessibility variables
-            let ariaHidden = toggle.previousSibling.getAttribute('aria-hidden');
-            let ariaExpanded = toggle.previousSibling.getAttribute('aria-expanded');
-            ariaHidden = ariaHidden==="true" ? false : true;
-            ariaExpanded = ariaExpanded==="false" ? true : false;
-            
+
+            //core-toggles
+            toggle.parentNode.classList.toggle('active'); 
+
             const siblings = getSiblings(toggle.parentNode);
             siblings.forEach(sibling => {
                 sibling.classList.remove('active');
-                
-                // Accessibility
-                sibling.querySelector('a').setAttribute('aria-hidden',true);
-                sibling.querySelector('a').setAttribute('aria-expanded',false);
             })
-            toggle.parentNode.classList.toggle('active');
-        
-            // Accessibility
-            toggle.previousSibling.setAttribute('aria-hidden',ariaHidden);
-            toggle.previousSibling.setAttribute('aria-expanded',ariaExpanded);
-
             
+           
             // get total height of childrens
-            var totalHeight = 0;       
+            let totalHeight = 0;       
             toggle.parentNode.childNodes.forEach(item => {
                 totalHeight += item.scrollHeight; 
             });
@@ -54,7 +49,22 @@ accordion = () => {
             }
 
         });
-    }); 
+
+        // Acessibility
+        toggle.addEventListener('click', () => {
+            let ariaExpanded = toggle.previousSibling.getAttribute('aria-expanded');
+            ariaExpanded = ariaExpanded=="false" ? true : false;
+            toggle.previousSibling.setAttribute('aria-expanded',ariaExpanded);
+
+            //Sibilings    
+            const siblings = getSiblings(toggle.parentNode);
+            siblings.forEach(sibling => {                
+                sibling.querySelector('a').setAttribute('aria-expanded',false);
+            })
+
+        });
+    });
+
 }
 
 
