@@ -56,6 +56,16 @@ accordion = () => {
             ariaExpanded = ariaExpanded=="false" ? true : false;
             toggle.setAttribute('aria-expanded',ariaExpanded);
 
+            // tabindex variables
+            // const menuLinkTabindex = toggle.previousSibling.getAttribute('tabindex');
+            // const menuButtonTabindex = toggle.getAttribute('index');
+
+            // const subMenu = toggle.parentNode.querySelector('ul').childNodes;
+            // subMenu.forEach(item => {
+            //     const subMenuLinkTabindex = item.querySelector('a').getAttribute('tabindex');
+            //     const subMenuButtonTabindex = item.querySelector('a').getAttribute('tabindex');
+            // })
+
             //Sibilings    
             const siblings = getSiblings(toggle.parentNode);
             siblings.forEach(sibling => {                
